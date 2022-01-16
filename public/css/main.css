@@ -1,0 +1,31 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+
+body{
+    color: silver;
+    background-color: chocolate;
+    text-shadow: -3px 3px 2px rgba(0,0,0,0.54);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: wheat;
+    text-decoration: none;
+}
+
+.container{
+    padding-top: 5em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.imagen{
+    width: 150px;
+    height: 150px;
+    padding-top: 2em;
+}

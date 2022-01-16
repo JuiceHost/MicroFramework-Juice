@@ -1,0 +1,12 @@
+{% extends './base.twig' %}
+
+{% block content %}
+{{ parent() }}
+<div>
+    {{ 'MicroFramework' }}
+
+
+    <a href="{{ url('dev', {name: "JkDev"}) }}">Dev</a>
+
+</div>
+{% endblock %}

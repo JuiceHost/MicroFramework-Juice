@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Microframework - Juice</title>
+  <meta name="description" content="Microframework para Juice">
+
+  <meta property="og:title" content="Microframework - Juice">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="https://juicehostingandwebsite.com/">
+  <meta property="og:image" content="">
+  <meta property="og:author" content="Joaquin Centurion">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/bootstrap-grid.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+  
+
+  {% block css %}
+  {% endblock %}
+</head>
+
+<body>
+<div class="container">
+          {% block content %}
+          {% endblock %}
+</div>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+</body>
+</html>
